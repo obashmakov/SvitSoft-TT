@@ -1,0 +1,64 @@
+.main {
+  &__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 1080px;
+    background: url(../images/background.png) no-repeat center;
+  }
+
+  &__info {
+    margin-top: 392px;
+    margin-left: 180px;
+  }
+
+  &__button {
+    margin-top: -64px;
+    margin-right: 180px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .main {
+    &__info {
+      margin-left: 80px;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .main {
+    &__info {
+      margin-left: 32px;
+    }
+
+    &__button {
+      margin-right: 32px;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .main {
+    align-items: center;
+    justify-content: center;
+    
+
+    &__swiper {
+      order: 1;
+    }
+
+    &__info {
+      margin: 0 auto;
+      margin-top: -1px;
+      order: 2;
+    }
+
+    &__button {
+      margin: 0 auto;
+    }
+  }
+}

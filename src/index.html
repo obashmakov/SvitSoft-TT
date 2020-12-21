@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SvitSoft Test Task</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="./scripts/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__wrapper">
+          <img
+            class="header__logo"
+            src="./images/logo.svg"
+            alt="logo"
+          >
+          <div class="header__languages">
+            <a href="#" class="header__language">UA</a>
+            <a href="#" class="header__language">RU</a>
+            <a href="#" class="header__language">EN</a>
+          </div>
+
+          <nav class="header__nav nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Головна
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Про компанію
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Варіанти придбання
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link nav__link--active" href="#">
+                  Варіанти інвестування
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Новини
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Документи
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Контакти
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Співробітництво
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="icon nav-icon-1">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__container">
+        <div class="main__info info">
+          <div class="info__container">
+            <h1 class="info__title">Надійний забудовник</h1>
+            <p class="info__text">
+              – это 7 лет успешной работы на украинском рынке.
+              Более 700 квартир уже продано, а в планах компании
+              построить 120 тыс. метров жилой площади.
+            </p>
+          </div>
+
+          <button class="main__button info__button button">
+            ПРО КОМПАНІЮ
+            <img 
+              class="button__line"
+              src="./images/line.svg"
+              alt="line"
+            >
+            <img
+              class="button__arrow"
+              src="./images/arrow.svg"
+              alt="arrow"
+            >
+          </button>
+        </div>
+
+        <div class="swiper-button">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+        <div class="main__swiper swiper">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide">
+                <div class="slide__info">
+                  <p class="slide__title">Акційна пропозиція №1</p>
+                  <p class="slide__text">
+                    Забудовник – это 5 лет успешной работы на украинском рынке.
+                    Успешной работы на украинском рынке.
+                  </p>
+                </div>
+                <img
+                  class="slide__img" 
+                  src="./images/apartment_1.png" 
+                  alt="apartment"
+                >
+              </div>
+              <div class="swiper-slide slide">
+                <div class="slide__info">
+                  <p class="slide__title">Акційна пропозиція №2</p>
+                  <p class="slide__text">
+                    Забудовник – это 5 лет успешной работы на украинском рынке.
+                    Успешной работы на украинском рынке.
+                  </p>
+                </div>
+                <img
+                  class="slide__img" 
+                  src="./images/apartment_2.jpg" 
+                  alt="apartment"
+                >
+              </div>
+              <div class="swiper-slide slide">
+                <div class="slide__info">
+                  <p class="slide__title">Акційна пропозиція №3</p>
+                  <p class="slide__text">
+                    Забудовник – это 5 лет успешной работы на украинском рынке.
+                    Успешной работы на украинском рынке.
+                  </p>
+                </div>
+                <img
+                  class="slide__img" 
+                  src="./images/apartment_3.jpg" 
+                  alt="apartment"
+                >
+              </div>
+              <div class="swiper-slide slide">
+                <div class="slide__info">
+                  <p class="slide__title">Акційна пропозиція №4</p>
+                  <p class="slide__text">
+                    Забудовник – это 5 лет успешной работы на украинском рынке.
+                    Успешной работы на украинском рынке.
+                  </p>
+                </div>
+                <img
+                  class="slide__img" 
+                  src="./images/apartment_4.jpg" 
+                  alt="apartment"
+                >
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./scripts/slider.js"></script>
+  </body>
+</html>
