@@ -1,6 +1,6 @@
 # SvitSoft Test Task
 
-- [DEMO LINK](https://obashmakov.github.io/SvitSoft-TT/")
+- [DEMO LINK](https://obashmakov.github.io/SvitSoft-TT/)
 
 This project was created using HTML/CSS, SCSS, JavaScript. Plugin used for slider - "Swiper". The layout is completely resposive.
 
