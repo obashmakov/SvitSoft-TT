@@ -1,0 +1,46 @@
+@import "variables";
+@import "reset";
+@import "header";
+@import "nav";
+@import "main";
+@import "info";
+@import "button";
+@import "swiper";
+@import "slide";
+@import "burger";
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Neue Helvetica", "Helevetica", "Arial", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.body--lock {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Neue Helvetica";
+  font-weight: 400;
+  src: url(../fonts/HelveticaNeueCyr-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Neue Helvetica Bold";
+  font-weight: 700;
+  src: url(../fonts/HelveticaNeueCyr-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Neue Helvetica Black";
+  font-weight: 900;
+  src: url(../fonts/HelveticaNeueCyr-Black.ttf);
+}
